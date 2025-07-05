@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="423.0" prefWidth="529.0" visible="true" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.LoginController">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="105.0" layoutY="48.0" prefHeight="32.0" prefWidth="280.0" text="AUTHENTIFICATION" textFill="#010110">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font></Label>
+      <Label layoutX="53.0" layoutY="116.0" text="Nom utilisateur:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label layoutX="53.0" layoutY="195.0" text="Mot de passe:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomutilisateurField" layoutX="52.0" layoutY="146.0" prefHeight="25.0" prefWidth="386.0" />
+      <PasswordField fx:id="motDePasseField" layoutX="54.0" layoutY="227.0" prefHeight="25.0" prefWidth="386.0" />
+      <Button fx:id="btnConnexion"  onAction="#handleLogin" contentDisplay="CENTER" layoutX="55.0" layoutY="282.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="386.0" text="CONNEXION" textAlignment="CENTER" textFill="#0d14e9">
+         <font>
+            <Font name="Bell MT Bold" size="17.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
